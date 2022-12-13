@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viwport" content="width=device-width, initial-scale=1.0">
+    <title>LogoForFRee</title>
+    <link rel="stylesheet" href="slicknav.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="Logo png/Flag_of_Cambodia.svg.png" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Picture</a></li>
+                    <li><a href="">logo</a></li>
+                    <li><a href="">Download</a></li>
+
+                </ul>
+            </nav>
+            <img src="Logo png/—Pngtree—menu vector icon_3876237.png" class="Menu_icon_icon-icons">
+        </div>
+        <div class="row">
+            <div class="col">
+                <h1>LogoFor
+                    FRee</h1>
+                <p>ធ្វើការទាញយកដោយសេរី នូវ រូបភាពជាច្រើនប្រភេទ​នៅទីនេះ ! </p>
+                <button type="button">DOWNLOAD NOW</button>
+                ​​​<p10>ទាយយកឥឡូវនេះ! </p10>
+            </div>
+            <div class="col">
+                <div class="card card1">
+                    <h5>Sport</h5>
+                    <p>Download Now</p>
+                </div>
+                <div class="card card2">
+                    <h5>Nature</h5>
+                    <p>Download Now</p>
+                </div>
+                <div class="card card3">
+                    <h5>Logo</h5>
+                    <p>Download Now</p>
+                </div>
+                <div class="card card4">
+                    <h5>Picture</h5>
+                    <p>Download Now</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+    <script src="jquery.slicknav.js"></script>
+    <script>
+        $('.menu').slicknav({
+            'appendTo' : 'header',
+            'label' : '',
+        });
+    </script>
+    </body>
+</html>

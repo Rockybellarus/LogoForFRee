@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.062),rgba(0, 0, 0, 0.144)), url(Images/109687.jpg);
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+.Menu_icon_icon-icons{
+    width: 80px;
+    cursor: pointer;
+    margin-left: 40px;
+    color: #fff;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 70px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+    
+}
+nav ul li a:hover{
+    background: #999;
+    color: #fff;
+    text-shadow: 0 0 100px #999
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+    font-size: 70px;
+    color: aliceblue;  
+    font-style: unset;
+}
+.h1{
+    color: aliceblue;
+    font-size: 100px;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    line-height: 15px;
+}
+
+button{
+    width: 180px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 12px 0;
+    background: #fff;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 20px ;
+    background-image: url(images/109676.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.9s;
+}
+.card1{
+    background-image: url(Images/109676.jpg)
+}
+.card2{
+    background-image: url(Images/109666.jpg);
+}
+.card3{
+    background-image: url(Images/109694.jpg);
+}
+.card4{
+    background-image: url(Images/109999.jpg)
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 6px #999;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
